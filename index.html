@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js" 
+        integrity="sha512-CeIsOAsgJnmevfCi2C7Zsyy6bQKi43utIjdA87Q0ZY84oDqnI0uwfM9+bKiIkI75lUeI00WG/+uJzOmuHlesMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script type="text/javascript" async src="https://unpkg.com/fabric@5.3.0/dist/fabric.min.js"></script> -->
+</head>
+
+<body>
+    <!-- EU Cookie Compliance JS -->
+
+    <div style="width: 100%; border: 1px solid rgba(104, 104, 104, 0.856);">
+        <canvas id="mainCanvas" width="1920" height="1080"></canvas>
+    </div>
+    <!-- <footer role="contentinfo">
+        <div class="container">
+            <div class="row">
+                 <div class="left col-md-7">
+                    <ul class="links">
+                        <li>
+                            <span class="message">Hello from Seattle.</span>
+                        </li>
+                        <li>
+                            <a href="https://go.microsoft.com/fwlink/?LinkID=533687" onclick="followOnTwitter()"
+                                tabindex="0">Follow @code</a>
+                        </li>
+                        <li>
+                            <div class="github-star-button">
+                                <iframe
+                                    src="/assets/github-button.html?user=Microsoft&amp;repo=vscode&amp;type=star&amp;count=true"
+                                    frameborder="0" scrolling="0" width="130px" height="20px"
+                                    title="GitHub follow button" loading="lazy"></iframe>
+                            </div>
+                        </li>
+
+                        <script>
+                            function followOnTwitter() {
+                                var windowFeatures = "location=yes,height=600,width=550,scrollbars=yes,status=yes";
+                                var originalReferer = "&original_referer=" + document.URL;
+                                var screenName = "&screen_name=code";
+                                var URL = "https://twitter.com/intent/follow?" + originalReferer + screenName;
+                                window.open(URL, "_blank", windowFeatures);
+                            }
+
+                            function manageConsent() {
+                                if (WcpConsent.siteConsent.isConsentRequired) {
+                                    WcpConsent.siteConsent.manageConsent();
+                                }
+                            }
+                        </script>
+                    </ul>
+                </div> 
+                <div class="right col-md-5">
+                     <ul class="links">
+                        <li><a id="footer-support-link"
+                                href="https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=d66407ed-3967-b000-4cfb-2c318cad363d"
+                                target="_blank">Support</a></li>
+                        <li><a id="footer-privacy-link" href="https://go.microsoft.com/fwlink/?LinkId=521839"
+                                target="_blank">Privacy</a></li>
+                        <li style="display: none;"><a id="footer-cookie-link" style="cursor: pointer;"
+                                onclick="manageConsent()" target="_blank">Manage Cookies</a></li>
+                        <li><a id="footer-terms-link" href="https://www.microsoft.com/legal/terms-of-use"
+                                target="_blank">Terms of Use</a></li>
+                        <li><a id="footer-license-link" href="/License">License</a></li>
+                    </ul>
+                    <div class="copyright">
+                         <a id="footer-microsoft-link" class="logo" href="https://www.microsoft.com">
+                            <img class="microsoft-logo" src="/assets/images/microsoft-logo.png" height="20"
+                                alt="Microsoft homepage">
+                            <img class="microsoft-logo-inverted" src="/assets/images/microsoft-logo-inverted.png"
+                                height="20" alt="Microsoft homepage">
+                        </a> 
+                        <span>© 2023 Microsoft</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <script src="src/index.js?v2" type="module"></script>
+
+</body>
+
+</html>
